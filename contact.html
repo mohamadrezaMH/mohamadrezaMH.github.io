@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تماس - محمدرضا محمدی</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav id="navbar" class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html">محمدرضا محمدی</a>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">خانه</a></li>
+                <li><a href="about.html">درباره من</a></li>
+                <li><a href="experience.html">تجربیات</a></li>
+                <li><a href="projects.html">پروژه‌ها</a></li>
+                <li><a href="contact.html" class="active">تماس</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <main class="contact-page">
+        <div class="container">
+            <div class="page-header">
+                <h1>در تماس باشید</h1>
+                <p>بیایید با هم صحبت کنیم</p>
+            </div>
+
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-card">
+                        <i class="fas fa-envelope"></i>
+                        <h3>ایمیل</h3>
+                        <p>برای همکاری و پروژه‌ها</p>
+                        <a href="mailto:mohamadreza.mh1783@gmail.com">mohamadreza.mh1783@gmail.com</a>
+                    </div>
+
+                    <div class="info-card">
+                        <i class="fab fa-github"></i>
+                        <h3>GitHub</h3>
+                        <p>پروژه‌ها و کدهای من</p>
+                        <a href="https://github.com/mohamadrezaMH" target="_blank">github.com/mohamadrezaMH</a>
+                    </div>
+
+                    <div class="info-card">
+                        <i class="fab fa-linkedin"></i>
+                        <h3>LinkedIn</h3>
+                        <p>حرفه‌ای و شبکه‌سازی</p>
+                        <a href="https://linkedin.com/in/mohammadreza-mohammadi-7377b5277" target="_blank">linkedin.com/in/mohammadreza-mohammadi</a>
+                    </div>
+
+                    <div class="info-card">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>موقعیت</h3>
+                        <p>منطقه و دسترسی</p>
+                        <span>تهران، ایران</span>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <h3>پیام مستقیم بفرستید</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">نام کامل</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">آدرس ایمیل</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">موضوع</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">پیام</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-paper-plane"></i> ارسال پیام
+                        </button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="map-section">
+                <h3>موقعیت من روی نقشه</h3>
+                <div class="map-placeholder">
+                    <i class="fas fa-map"></i>
+                    <p>تهران، ایران</p>
+                    <span>دسترسی آسان از تمام نقاط شهر</span>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; ۲۰۲۴ محمدرضا محمدی. تمام حقوق محفوظ است.</p>
+        </div>
+    </footer>
+
+    <script src="scripts/navigation.js"></script>
+    <script src="scripts/contact.js"></script>
+</body>
+</html>
