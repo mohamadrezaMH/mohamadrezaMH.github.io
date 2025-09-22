@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>پروژه‌ها - محمدرضا محمدی</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/projects.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav id="navbar" class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html">محمدرضا محمدی</a>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">خانه</a></li>
+                <li><a href="about.html">درباره من</a></li>
+                <li><a href="experience.html">تجربیات</a></li>
+                <li><a href="projects.html" class="active">پروژه‌ها</a></li>
+                <li><a href="contact.html">تماس</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <main class="projects-page">
+        <div class="container">
+            <div class="page-header">
+                <h1>پروژه‌های من</h1>
+                <p>نمونه کارها و پروژه‌های انجام شده</p>
+            </div>
+
+            <div class="projects-filter">
+                <button class="filter-btn active" data-filter="all">همه</button>
+                <button class="filter-btn" data-filter="frontend">فرانت‌اند</button>
+                <button class="filter-btn" data-filter="backend">بک‌اند</button>
+                <button class="filter-btn" data-filter="algorithm">الگوریتم</button>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card" data-category="algorithm">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <a href="https://github.com/mohamadrezaMH/SVD-algorithm-project" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>پروژه الگوریتم SVD</h3>
+                        <p>پیاده‌سازی الگوریتم تجزیه مقدار منفرد برای فشرده‌سازی تصویر به همراه رابط کاربری گرافیکی</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>NumPy</span>
+                            <span>Matplotlib</span>
+                            <span>Tkinter</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/mohamadrezaMH/SVD-algorithm-project" target="_blank" class="project-github">
+                                <i class="fab fa-github"></i> مشاهده کد
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card" data-category="algorithm">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <a href="https://github.com/mohamadrezaMH/Dual-LP-converter" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>مبدل دوگانه LP</h3>
+                        <p>ابزار بهینه‌سازی خطی برای تبدیل مسائل اولیه به دوگانه و محاسبه جواب بهینه</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Pyomo</span>
+                            <span>Flask</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/mohamadrezaMH/Dual-LP-converter" target="_blank" class="project-github">
+                                <i class="fab fa-github"></i> مشاهده کد
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card" data-category="algorithm">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <a href="https://github.com/mohamadrezaMH/Numerical-Analysis-Interpolation-Techniques" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>تکنیک‌های درونیابی</h3>
+                        <p>پیاده‌سازی روش‌های درونیابی چندجمله‌ای و خطی با محاسبه خطا و visualization پیشرفته</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>SciPy</span>
+                            <span>Matplotlib</span>
+                            <span>NumPy</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/mohamadrezaMH/Numerical-Analysis-Interpolation-Techniques" target="_blank" class="project-github">
+                                <i class="fab fa-github"></i> مشاهده کد
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card" data-category="frontend">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <a href="https://github.com/mohamadrezaMH/SabzLearn_front-End_Clone_Project" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>کلون سبزلرن</h3>
+                        <p>پیاده‌سازی کامل فرانت‌اند وبسایت سبزلرن با قابلیت‌های responsive و انیمیشن‌های مدرن</p>
+                        <div class="project-tech">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                            <span>Responsive</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/mohamadrezaMH/SabzLearn_front-End_Clone_Project" target="_blank" class="project-github">
+                                <i class="fab fa-github"></i> مشاهده کد
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; ۲۰۲۴ محمدرضا محمدی. تمام حقوق محفوظ است.</p>
+        </div>
+    </footer>
+
+    <script src="scripts/navigation.js"></script>
+    <script src="scripts/projects.js"></script>
+</body>
+</html>
