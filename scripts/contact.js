@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', function() {
             
             // Simulate API call
             setTimeout(() => {
-                showMessage('پیام شما با موفقیت ارسال شد! به زودی با شما تماس خواهم گرفت.', 'success');
+                showMessage('پیام شما با موفقیت ارسال شد! به زودی با شما ارتباط خواهم گرفت.', 'success');
                 contactForm.reset();
                 submitBtn.innerHTML = originalText;
                 submitBtn.disabled = false;
